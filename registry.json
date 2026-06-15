@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "react-compare-reveal",
+  "homepage": "https://github.com/ely-saakian/react-compare-reveal",
+  "items": [
+    {
+      "name": "component",
+      "type": "registry:block",
+      "title": "Compare Reveal",
+      "description": "Accessible before/after image reveal slider with a CSS-variable drag hot path, flat + compound APIs, and asChild slots.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "docs": "Requires React 19+ (uses the use() hook and context-as-provider). Requires a shadcn project with cn from @/lib/utils.",
+      "files": [
+        {
+          "path": "src/components/compare-reveal/index.ts",
+          "type": "registry:component",
+          "target": "@components/compare-reveal/index.ts"
+        },
+        {
+          "path": "src/components/compare-reveal/CompareReveal.tsx",
+          "type": "registry:component",
+          "target": "@components/compare-reveal/CompareReveal.tsx"
+        },
+        {
+          "path": "src/components/compare-reveal/parts.tsx",
+          "type": "registry:component",
+          "target": "@components/compare-reveal/parts.tsx"
+        },
+        {
+          "path": "src/components/compare-reveal/Slot.tsx",
+          "type": "registry:component",
+          "target": "@components/compare-reveal/Slot.tsx"
+        },
+        {
+          "path": "src/components/compare-reveal/context.ts",
+          "type": "registry:lib",
+          "target": "@components/compare-reveal/context.ts"
+        },
+        {
+          "path": "src/components/compare-reveal/types.ts",
+          "type": "registry:lib",
+          "target": "@components/compare-reveal/types.ts"
+        },
+        {
+          "path": "src/components/compare-reveal/useSplit.ts",
+          "type": "registry:hook",
+          "target": "@components/compare-reveal/useSplit.ts"
+        },
+        {
+          "path": "src/components/compare-reveal/useSlotLoad.ts",
+          "type": "registry:hook",
+          "target": "@components/compare-reveal/useSlotLoad.ts"
+        }
+      ]
+    }
+  ]
+}

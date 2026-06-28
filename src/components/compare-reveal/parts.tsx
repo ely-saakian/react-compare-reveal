@@ -87,7 +87,7 @@ function SlotImage({
     // will-change hint is toggled by the container's `cr-dragging` marker via
     // CSS so the image element never re-renders on drag start/end.
     clip &&
-      "[clip-path:inset(0_calc(100%_-_var(--split)*1%)_0_0)] [.cr-dragging_&]:will-change-[clip-path]",
+      "[clip-path:inset(0_0_0_calc(var(--split)*1%))] [.cr-dragging_&]:will-change-[clip-path]",
     className,
   );
 
